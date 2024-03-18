@@ -32,27 +32,31 @@ function ScheduleMeeting() {
 
     return (
     <div className="siri_wave">
-        <Siriwave style="ios" color="#6adc92" ratio={4} />
-        <Siriwave style="ios9" color="#a390ff" ratio={2} frequency={111} cover={true}/>  
+      <div className='waves_panel'>
+        <Siriwave style="ios" color="#6adc92" ratio={4} className="sw"/>
+        <Siriwave style="ios9" color="#a390ff" ratio={2} frequency={111} cover={true} className="sw"/>  
+      </div>
 
-       <i>Please click on <b>Start</b> to Enable Speech Recognition Scheduling With AI.</i>
-       <div  className="microphone">
-            <p>Microphone: {listening ? 'on' : 'off'}</p>
-            <img  src={Microphone} alt="Microphone icon"/>
-        </div>
-      
-      <div className="speech_buttons">
-        <Button   variant="outlined"   color="primary"  onClick={SpeechRecognition.startListening} > Start  </Button>
-        <Button   variant="outlined"   color="primary"  onClick={SpeechRecognition.stopListening} > Stop  </Button>
-        <Button   variant="outlined"   color="primary"  onClick={resetTranscript} > Reset  </Button>
-        <Button   variant="outlined"   color="primary"  onClick={onClickStop} > Done  </Button>
-        <Button   variant="outlined"   color="primary" >
-            <a href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noopener noreferrer">
-            View Scheduled Meeting  </a>  
-        </Button>
-       </div>
-      <hr/>
-      <p>{transcript}</p>       
+      <div className='control_panel'>
+      <i>Please click on <b>Start</b> to Enable Speech Recognition Scheduling With AI.</i>
+            <div  className="microphone">
+                  <p>Microphone: {listening ? 'on' : 'off'}</p>
+                  <img  src={Microphone} alt="Microphone icon"/>
+              </div>
+            
+            <div className="speech_buttons">
+              <Button   variant="outlined"   color="primary"  onClick={SpeechRecognition.startListening} > Start  </Button>
+              <Button   variant="outlined"   color="primary"  onClick={SpeechRecognition.stopListening} > Stop  </Button>
+              <Button   variant="outlined"   color="primary"  onClick={resetTranscript} > Reset  </Button>
+              <Button   variant="outlined"   color="primary"  onClick={onClickStop} > Done  </Button>
+              <Button   variant="outlined"   color="primary" >
+                  <a href="https://calendar.google.com/calendar/u/0/r" target="_blank" rel="noopener noreferrer">
+                  View Scheduled Meeting  </a>  
+              </Button>
+            </div>
+            <hr/>
+            <p>{transcript}</p>       
+      </div>
  
     </div>
     )

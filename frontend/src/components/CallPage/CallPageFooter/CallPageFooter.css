@@ -55,19 +55,26 @@
     margin: 0 10px;
    
 }
-.CallPageFooter > .center__item >  .icon__block >  .icon{
+.CallPageFooter > .center__item >  .icon__block:hover{
+    background-color: #d93825;
+}
+.CallPageFooter > .center__item >  .icon__block >  .icon3{
     color: #555;
     font-size: 25px;
-   
+    box-shadow:  0 0 10px rgb(204, 196, 196);
+
 }
-.CallPageFooter > .center__item >  .icon__block >  .icon > .red{
+.CallPageFooter > .center__item >  .icon__block >  .icon3:hover{
+    color:  #fff;
+}
+.CallPageFooter > .center__item >  .icon__block:hover{
+    cursor: pointer;
     color:#d93825  !important ;
 }
-
-.CallPageFooter > .center__item >  .icon__block >  .icon > .red:hover{
+/* .CallPageFooter > .center__item >  .icon__block >  .icon3:hover{
     cursor: pointer;
-    box-shadow:  0 0 10px rgb(204, 196, 196);
-}
+    color:#d93825  !important ;
+} */
 .CallPageFooter > .center__item >  .icon__block >  .icon > .red >.red__bg{
     background: #d93825;
     

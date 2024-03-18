@@ -25,16 +25,15 @@ function CallPageFooter({isPresenting,showVideo,stopScreenShare,isAudio,disconne
 
             <div className="center__item">
                 <div className={`icon__block ${!isAudio ?  "red__bg" : null}`} onClick={()=>toggleAudio(!isAudio)}>
-                    {isAudio ? <MicIcon className="icon"/> :  < MicOffIcon  className="icon"/> } 
+                    {isAudio ? <MicIcon className="icon3"/> :  < MicOffIcon  className="icon"/> } 
                 </div>
 
                 <div className="icon__block" onClick={disconnectCall}>
-                    <Link  to="/dashboard/censusForm" onClick={disconnectToast}>__</Link>
-                    <CallIcon className="icon red"/>
+                    <Link  to="/dashboard/censusForm" onClick={disconnectToast}>  <CallIcon className="icon3 red2"/></Link>
                 </div>
 
                 <div className={`icon__block ${!showVideo ?  "red__bg" : null}`}  onClick={disableVideo}>
-                  {showVideo  ?    <VideocamIcon className="icon  " /> : <VideocamOffIcon   className="icon "/> } 
+                  {showVideo  ?    <VideocamIcon className="icon3" /> : <VideocamOffIcon   className="icon "/> } 
                 </div>
             </div>
 

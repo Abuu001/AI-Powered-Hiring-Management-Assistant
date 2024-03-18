@@ -1,0 +1,12 @@
+.footer__Icons{
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer__Icons >img {
+   width: 200px;
+   height: 100px;
+}

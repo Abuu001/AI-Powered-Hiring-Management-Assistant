@@ -1,0 +1,18 @@
+.dashboard__topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 16px;
+    border-bottom: 1px solid black;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    top: 0;
+    width: 86%;
+
+}
+.dashboard__topbar > img {
+    width: 200px;
+    height: 80px;
+    object-fit: contain;
+}

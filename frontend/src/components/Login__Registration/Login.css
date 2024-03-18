@@ -1,0 +1,54 @@
+.login-container{
+    width: 400px;
+    margin-top: 50px;
+    text-align: center;
+}
+.socialmedia__Icons{
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.socialMedia__Icon1{
+    font-size: 30px;
+    color: yellow;
+}
+.socialMedia__Icon1 :hover{
+    color: rgb(199, 199, 41);
+}
+
+.socialMedia__Icon2{
+    font-size: 30px;
+    color: #0099ff;
+}
+.socialMedia__Icon2 :hover{
+    color: rgb(57, 151, 228);
+}
+
+.socialMedia__Icon3{
+    font-size: 30px;
+    color: rgb(23, 74, 216);
+}
+.socialMedia__Icon3 :hover{
+    color: rgb(12, 71, 233);
+}
+
+.socialMedia__Icon4{
+    font-size: 30px;
+    color: rgb(178, 49, 218);
+}
+.socialMedia__Icon4 :hover{
+    color: rgb(172, 41, 224);
+}
+
+.socialMedia__Icon5{
+    font-size: 30px;
+    color: rgb(37, 163, 43);
+}
+.socialMedia__Icon5 :hover{
+    color: rgb(0, 255, 13);
+}
+
+.login__footer{
+    position: relative;
+    top: 84px;
+}

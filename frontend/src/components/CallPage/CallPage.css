@@ -1,0 +1,50 @@
+.CallPage{
+    width: 100%;
+    height: 100vh;
+} 
+
+.CallPage > video{
+     top: 122px;
+        width: 50%;
+        height: 70vh;
+    }
+    
+.CallPage > .Video__Container{
+        width: 55%;
+          /* height: 100vh; */
+        object-fit: cover;
+        position: absolute;
+        top: 110;
+        z-index: -1;
+    }
+ .CallPage > .online_meeting_frames{
+    display: flex;
+    flex-direction: row;
+    
+ }
+
+ .CallPage > .online_meeting_frames > .ai_gif >.embddd{
+    height: 44%;
+    width: 87%;
+    order: 2; 
+   }
+  
+   .CallPage > .online_meeting_frames > .facialdetector_container{
+    height: 100%;
+    width: 90%;
+    order: 1; 
+    }
+
+    .CallPage >.online_meeting_frames> .gpp{
+        display: flex;
+        flex-direction: column;
+     }
+     .CallPage > p {
+    font-size: 21px;
+    font-style: italic;}
+    /* .CallPage > .online_meeting_frames > .meeting_link_box {
+        height: 100%;
+        width: 90%;
+        order: 3; 
+        background-color: rebeccapurple;
+    } */

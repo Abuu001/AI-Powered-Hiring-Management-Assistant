@@ -1,0 +1,39 @@
+.census__QA{
+    display: flex;
+    flex-direction: column;
+}
+.message__info{
+    background-color: rgb(231, 143, 161);
+    width: 90%;
+    height: 40px;
+    padding-left: 140px;
+    padding-top: 8px;
+    border-radius: 12px
+}
+.census__Form > p{
+    padding-left: 30px;
+    padding-right: 40px !important;
+}
+.census__Form > p >label{
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    padding-right: 40px !important;
+}
+.census__Form > p> input[type="text"] {
+    width: 364px;
+    height: 30px;
+}
+.census__Form > p>  input[type="date"]{
+    width: 364px;
+    height: 30px;
+}
+.census__Form > p>  input[type="number"]{
+    width: 364px;
+    height: 30px;
+}
+
+.census__Form > p> .census__select__form {
+    width: 264px;
+    height: 89px;
+}

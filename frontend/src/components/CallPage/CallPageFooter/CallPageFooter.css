@@ -1,0 +1,118 @@
+.CallPageFooter{
+    position: absolute;
+    bottom: 0;
+    /* // left: 0; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background: #fff;
+    z-index: 1;
+   
+}
+.CallPageFooter > .left__item{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 130px;
+   
+}
+.CallPageFooter > .left__item >  .icon__block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    height: 100%;
+   
+}
+.CallPageFooter > .left__item >  .icon__block >  .icon{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.CallPageFooter > .left__item >  .icon__block >  .icon:hover{
+    cursor: pointer;
+    background: #eee;
+}
+
+.CallPageFooter > .center__item{
+    width:100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+   
+}
+.CallPageFooter > .center__item >  .icon__block{
+    background: rgb(224, 219, 219);
+    border: 1px solid rgb(233, 233, 233);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+   
+}
+.CallPageFooter > .center__item >  .icon__block >  .icon{
+    color: #555;
+    font-size: 25px;
+   
+}
+.CallPageFooter > .center__item >  .icon__block >  .icon > .red{
+    color:#d93825  !important ;
+}
+
+.CallPageFooter > .center__item >  .icon__block >  .icon > .red:hover{
+    cursor: pointer;
+    box-shadow:  0 0 10px rgb(204, 196, 196);
+}
+.CallPageFooter > .center__item >  .icon__block >  .icon > .red >.red__bg{
+    background: #d93825;
+    
+}
+.CallPageFooter > .center__item >  .icon__block >  .icon > .red >.red__bg > .icon{
+    color: #fff;
+}
+
+.CallPageFooter > .right__item{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    height: 100%  !important;
+    /* // width: 350px;
+    // width: 30%; */
+
+}
+
+.CallPageFooter > .right__item >     .icon__block{
+    display: flex  !important;
+    align-items: center  !important;
+    justify-content: center  !important;
+    flex-direction: column  !important;
+    height: 100%  !important;
+    width: 146px  !important;
+    color: #555  !important;
+  
+}
+
+.CallPageFooter > .right__item >     .icon__block >   .icon{
+    font-size: 20px  !important;
+    margin-bottom: 10px  !important;
+}
+.CallPageFooter > .right__item >     .icon__block >   .icon >.title{
+    margin: 0  !important;
+    font-size: 14px  !important;
+    font-weight: 700  !important;
+}
+.CallPageFooter > .right__item >     .icon__block >   .icon >.title:hover{
+    cursor: pointer  !important;
+    background: #eee  !important;
+}
+
+@media(max-width:502px){
+    .CallPageFooter{
+        flex-wrap: wrap;
+    }
+}

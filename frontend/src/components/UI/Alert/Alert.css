@@ -1,0 +1,35 @@
+.messageAlert__popup{
+    position: absolute;
+    bottom: 100px;
+    right: 10px;
+    background: #fff;
+    padding: 15px;
+    min-width: 250px;
+    min-height: 100px;
+    border-radius: 5px;
+  
+}
+
+.alert__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    color: #04796a;
+   
+   
+}
+.icon{
+    margin-right: 10px;
+}
+.alert__header > h3{
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0;
+}
+.alert__msg{
+    font-size: 14px;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

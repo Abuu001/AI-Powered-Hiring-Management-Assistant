@@ -1,0 +1,19 @@
+.message_info{
+    background-color: #e8f2fe;
+}
+.votermodel{
+    position: relative;
+    top: 100px;
+}
+#close__model > a{
+    color: red  !important;
+    font-size: 30px;
+    font-weight: 300 !important;
+    text-decoration: none;
+    position: absolute !important;
+    right: 8px !important;
+}
+.model__popup{
+    display: flex;
+    flex-direction: column;
+}
